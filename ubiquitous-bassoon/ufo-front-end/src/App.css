@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bowlby+One+SC&family=Gloria+Hallelujah&family=Otomanopee+One&family=Permanent+Marker&family=Poiret+One&family=Shrikhand&family=Unica+One&display=swap');
+/* font-family: 'Bangers', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Otomanopee One', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Unica One', cursive; */
+
+* {
+  background-color: black;
+  color:floralwhite;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  font-family: 'Gloria Hallelujah', cursive;
+  /* font-family: 'Shrikhand', cursive; */
+  /* font-family: 'Bowlby One SC', cursive; */
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 1px 1px 2px dimgrey;
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 14px 16px;
+  
+}
+
+.navigation {
+  font-family: 'Permanent Marker', cursive;
+  text-align: right;
+  font-size: 25px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 1%;
+}
+
+.navigation a:hover {
+  color:greenyellow;
+  transition-duration: 2s;
+
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+button {
+  padding: 10px; 
+  text-shadow: 2px 2px #000000;
+  font-size: 2em;
+  font-family: 'Permanent Marker', cursive;
+  transform: skew(-15deg);
+  box-shadow: 5px 5px 0px #FFFFFF;
+}
+.button1 {
+  background-color: #00FF00;
+}
+.button2 {
+  background-color: #FF00cc;
+}
+.button3 {
+  background-color: #ff9900;
+}
+.button4 {
+  background-color: #ffff00;
+}
+
+.button1:hover {
+  box-shadow: 10px 10px 0px #ff00cc;
+}
+.button2:hover {
+  box-shadow: 10px 10px 0px #FFFF00;
+}
+.button3:hover {
+  box-shadow: 10px 10px 0px #00ff00;
+}
+.button4:hover {
+  box-shadow: 10px 10px 0px #ff9900;
+}
+
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } 
+} 
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

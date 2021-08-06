@@ -1,0 +1,46 @@
+{
+  "name": "ubiquitous-bassoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.16.1",
+    "npm": "6.14.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "client": "npm start --prefix ufo-front-end",
+    "bootstrap": "npm install -d && cd ufo-front-end && npm install -d",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "npm install --prefix ufo-front-end && npm run build --prefix ufo-front-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dream-team-cn/ubiquitous-bassoon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dream-team-cn/ubiquitous-bassoon/issues"
+  },
+  "homepage": "https://github.com/dream-team-cn/ubiquitous-bassoon#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.9"
+  }
+}
